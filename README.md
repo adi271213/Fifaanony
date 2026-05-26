@@ -24,6 +24,8 @@ For full reproduction instructions, see `REPRODUCE.md`.
 ## Repository structure
 ````
 
+````
+
 mnembound_repo/
 ├── README.md             this file
 ├── REPRODUCE.md          step-by-step reproduction guide
@@ -67,6 +69,8 @@ mnembound_repo/
 ├── main.tex
 ├── references.bib
 └── main.pdf                   compiled paper preview
+```
+
 ```
 
 
