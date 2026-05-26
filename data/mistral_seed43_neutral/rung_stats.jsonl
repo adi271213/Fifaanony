@@ -1,0 +1,4 @@
+{"rung": "isolated", "n_probes": 300, "avg_fragments_retrieved": 3.1, "avg_fragments_excluded": 2.4, "retention_by_probe_type": {"supported": 1.0, "absent": 0.3479999999999999, "partial": 0.44, "cross_boundary": 0.33399999999999985}}
+{"rung": "boundary_preserving_topk", "n_probes": 300, "avg_fragments_retrieved": 3.1, "avg_fragments_excluded": 2.4, "retention_by_probe_type": {"supported": 1.0, "absent": 0.3479999999999999, "partial": 0.44, "cross_boundary": 0.33399999999999985}}
+{"rung": "shared_vector_index", "n_probes": 300, "avg_fragments_retrieved": 5.5, "avg_fragments_excluded": 0.0, "retention_by_probe_type": {"supported": 1.0, "absent": 1.0, "partial": 1.0, "cross_boundary": 1.0}}
+{"rung": "summary_merge", "n_probes": 300, "avg_fragments_retrieved": 5.5, "avg_fragments_excluded": 0.0, "retention_by_probe_type": {"supported": 1.0, "absent": 1.0, "partial": 1.0, "cross_boundary": 1.0}}

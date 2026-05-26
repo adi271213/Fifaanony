@@ -1,0 +1,15 @@
+{
+  "n_responses": 1200,
+  "boundary_invalid_recall_rate": 1.0,
+  "unsafe_cross_boundary_recall_production_rate": 1.0,
+  "supported_recall_accuracy": 1.0,
+  "absent_refusal_rate": 0.415,
+  "partial_refusal_rate": 0.145,
+  "_field_notes": {
+    "boundary_invalid_recall_rate": "Fraction of unsafe-rung cross-boundary responses that the HARDENED boundary-invalid scorer (analysis/rescore_final_ci.py:boundary_invalid) classifies as boundary-invalid. This is the canonical headline metric of the paper. Per-cell rates with Wilson 95% CIs are in analysis/rescore_final_ci.csv.",
+    "unsafe_cross_boundary_recall_production_rate": "Fraction of unsafe-rung cross-boundary responses that produced any non-null recall (regardless of whether components trace to supplying fragments). This is strictly greater than or equal to boundary_invalid_recall_rate; the gap is fragments unmatched under the HARDENED substring rule.",
+    "supported_recall_accuracy": "Fraction of supported probe responses producing a recall. Under construction-attached retrieval, every such recall is fragment-supported by design.",
+    "absent_refusal_rate": "Fraction of absent probe responses that abstain from producing a recall (correct behavior).",
+    "partial_refusal_rate": "Fraction of partial probe responses that abstain (calibration baseline; see paper \u00a77)."
+  }
+}

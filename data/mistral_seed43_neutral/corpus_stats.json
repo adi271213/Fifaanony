@@ -1,0 +1,56 @@
+{
+  "condition": "mistral_seed43_neutral",
+  "n_fragments": 25000,
+  "n_records": 5000,
+  "n_boundaries": 10,
+  "probes_by_type": {
+    "supported": 100,
+    "absent": 50,
+    "partial": 50,
+    "cross_boundary": 100
+  },
+  "cross_boundary_probes": {
+    "total": 100,
+    "with_bridge_context": 100,
+    "fraction_with_bridge_context": 1.0,
+    "bridge_category_distribution": {
+      "malware_hash": 50,
+      "cve": 27,
+      "shared_ip": 18,
+      "vendor": 5
+    },
+    "boundary_span_distribution": {
+      "2": 8,
+      "3": 9,
+      "4": 69,
+      "5": 14
+    },
+    "mean_boundary_span": 3.89
+  },
+  "distinct_bridges_in_cross_boundary_probes": 12,
+  "bridge_boundary_coverage_distribution": {
+    "2": 1,
+    "3": 1,
+    "4": 8,
+    "5": 2
+  },
+  "mean_boundaries_per_bridge": 3.9166666666666665,
+  "generator_design_parameters": {
+    "bridge_density_extra_default": 0.05,
+    "bridge_density_slot_default": 0.0,
+    "bridge_categories": [
+      "shared_ip",
+      "malware_hash",
+      "cve",
+      "vendor",
+      "threat_actor"
+    ],
+    "default_bridge_pool_sizes": {
+      "shared_ip": 50,
+      "malware_hash": 30,
+      "cve": 20,
+      "vendor": 15,
+      "threat_actor": 10
+    }
+  }
+}

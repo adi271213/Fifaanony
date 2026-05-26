@@ -1,0 +1,22 @@
+{
+  "seed": 44,
+  "salt": "mnembound:c9b552d16cd56adb6f5dcdcd20a63458",
+  "n_records": 5000,
+  "n_fragments": 25000,
+  "n_probes": 300,
+  "tenants": [
+    "clientA",
+    "clientB",
+    "clientC",
+    "clientD",
+    "clientE",
+    "clientF",
+    "clientG",
+    "clientH",
+    "clientI",
+    "clientJ"
+  ],
+  "n_tenant_entity_pools": 10,
+  "n_sanitizer_entries": 10500,
+  "has_bridges": true
+}

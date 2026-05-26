@@ -1,0 +1,56 @@
+{
+  "condition": "qwen_full_cautious",
+  "n_fragments": 25000,
+  "n_records": 5000,
+  "n_boundaries": 10,
+  "probes_by_type": {
+    "supported": 100,
+    "absent": 50,
+    "partial": 50,
+    "cross_boundary": 100
+  },
+  "cross_boundary_probes": {
+    "total": 100,
+    "with_bridge_context": 100,
+    "fraction_with_bridge_context": 1.0,
+    "bridge_category_distribution": {
+      "shared_ip": 34,
+      "vendor": 13,
+      "cve": 13,
+      "malware_hash": 27,
+      "threat_actor": 13
+    },
+    "boundary_span_distribution": {
+      "3": 10,
+      "4": 19,
+      "5": 71
+    },
+    "mean_boundary_span": 4.61
+  },
+  "distinct_bridges_in_cross_boundary_probes": 8,
+  "bridge_boundary_coverage_distribution": {
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 2
+  },
+  "mean_boundaries_per_bridge": 4.75,
+  "generator_design_parameters": {
+    "bridge_density_extra_default": 0.05,
+    "bridge_density_slot_default": 0.0,
+    "bridge_categories": [
+      "shared_ip",
+      "malware_hash",
+      "cve",
+      "vendor",
+      "threat_actor"
+    ],
+    "default_bridge_pool_sizes": {
+      "shared_ip": 50,
+      "malware_hash": 30,
+      "cve": 20,
+      "vendor": 15,
+      "threat_actor": 10
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# LaTeX build artefacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+
+# Analysis logs (regenerable from data + scripts)
+analysis/*.log
+bcesv/*.log
+
+# Local virtual environments
+venv/
+.venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+*.swp
