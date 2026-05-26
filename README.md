@@ -110,7 +110,7 @@ deterministic seeded execution and reproduces `fragments.store.jsonl` and
 `probes.jsonl` from `corpus.json`. The LLM-evaluation step (regenerating
 `responses.jsonl`) requires an Nvidia H100 (or equivalent FP8-capable GPU)
 running vLLM 0.21 with the two open-weights models named in §5.4. Approximate
-cost to fully regenerate the 14{,}400 responses: ~3 GPU-hours, ~\$10.
+cost to fully regenerate the 14,400 responses: ~3 GPU-hours, ~\$10.
 
 ## Licence
 
