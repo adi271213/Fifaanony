@@ -77,8 +77,8 @@ Each `data/<condition>/` folder contains:
 
 | File | Lines | Purpose |
 |---|---|---|
-| `responses.jsonl` | 1{,}200 | 300 probes × 4 retrieval rungs; the LLM's structured recall + metadata |
-| `fragments.store.jsonl` | 25{,}000 | Trusted store metadata: `boundary_id`, sanitized values, tenant, event, timestamp |
+| `responses.jsonl` | 1,200 | 300 probes × 4 retrieval rungs; the LLM's structured recall + metadata |
+| `fragments.store.jsonl` | 25,000 | Trusted store metadata: `boundary_id`, sanitized values, tenant, event, timestamp |
 | `probes.jsonl` | 300 | Probe definitions (100 supported, 100 cross-boundary, 50 absent, 50 partial) |
 | `corpus.json` | 1 | Corpus generator parameters (seed, tenants, density, etc.) |
 | `metrics.json` | 1 | Generator-time validation metrics |
