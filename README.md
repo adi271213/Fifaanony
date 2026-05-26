@@ -22,9 +22,7 @@ python3 rescore_final_ci.py
 For full reproduction instructions, see `REPRODUCE.md`.
 
 ## Repository structure
-````
-
-````
+```
 
 mnembound_repo/
 ├── README.md             this file
@@ -71,7 +69,6 @@ mnembound_repo/
 └── main.pdf                   compiled paper preview
 ```
 
-```
 
 
 ## What's in each condition directory
